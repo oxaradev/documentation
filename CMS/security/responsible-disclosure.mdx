@@ -1,0 +1,249 @@
+---
+title: Responsible Disclosure
+sidebarTitle: Responsible Disclosure
+icon: shield-check
+description: Report potential security vulnerabilities in Oxara safely and responsibly.
+tag: Security
+keywords:
+  - responsible disclosure
+  - vulnerability disclosure
+  - security
+  - report vulnerability
+  - oxara
+---
+
+# Responsible Disclosure
+
+_Last updated: 7 July 2026_
+
+Oxara takes security seriously.
+
+If you believe you have found a security vulnerability in an Oxara product, please report it to us responsibly. This allows us to investigate, diagnose, mitigate, and resolve the issue safely while reducing potential harm.
+
+This policy explains how to report a vulnerability, what testing is allowed, what is not allowed, and how we handle security reports.
+
+## Scope
+
+This policy applies to security vulnerabilities affecting Oxara-owned systems and services, including:
+
+- Oxara CMS, including the application, web dashboard, backend services, APIs, and WebSocket services
+- Oxara documentation
+- Oxara-owned domains and subdomains
+- Oxara-managed integrations
+- Other Oxara products, systems, or services that may not be listed here
+
+<Note>
+If you know of a security issue in a product, service, or provider we use, let us know. It is better that we hear about a potential issue twice than miss it entirely.
+</Note>
+
+This policy does not apply to third-party services, platforms, libraries, plugins, or integrations that Oxara does not own or control. If you find an issue in a third-party service, please report it to the relevant provider.
+
+## What to report
+
+Please report any issue that could affect the confidentiality, integrity, availability, or security of Oxara, our users, our tenants, or their data.
+
+Examples include:
+
+- Authentication bypass
+- Broken access controls
+- Privilege escalation
+- Cross-site scripting
+- Server-side request forgery
+- SQL injection
+- Remote code execution
+- Insecure direct object references
+- Sensitive data exposure
+- Token, session, or credential leakage
+- Insecure API or WebSocket behaviour
+- Misconfigured storage, permissions, or infrastructure
+- Vulnerabilities that could affect tenant isolation
+
+If you are unsure whether something is a valid vulnerability, report it. We would rather receive a low-impact report than miss a serious issue.
+
+<Note>
+Do not hesitate to reach out. If something looks wrong, we would rather know about it.
+</Note>
+
+## Out of scope
+
+The following are usually out of scope unless they can be used to demonstrate a real security impact:
+
+- Missing security headers without a practical exploit
+- Clickjacking on pages with no sensitive action
+- Version disclosure with no proven vulnerability
+- Self-XSS with no impact on other users
+- Logout CSRF
+- Rate-limit issues without meaningful impact
+- Social engineering
+- Physical attacks
+- DDoS, stress, load, or destructive testing
+- Spam or phishing simulations
+- Reports based only on automated scanner output
+- Issues affecting unsupported browsers, devices, or operating systems
+
+Please do not submit reports that rely only on theoretical impact. Include clear evidence, reproduction steps, and a realistic explanation of the risk.
+
+## Rules for testing
+
+When testing Oxara, you must act in good faith and avoid causing harm.
+
+You must:
+
+- Test only against accounts, tenancies, data, and systems you own or have permission to use
+- Use the minimum level of testing needed to confirm the issue
+- Stop testing immediately if you gain access to data that you are not authorised to access
+- Avoid changing, deleting, exporting, or damaging data
+- Avoid interrupting, degrading, or overloading Oxara services
+- Keep any information you discover confidential
+- Report the issue as soon as reasonably possible
+- Give us reasonable time to investigate and fix the issue before public disclosure
+
+<Warning>
+Where possible, contact us before performing security testing. We may be able to provide guidance, confirm scope, or provide an appropriate environment for testing.
+
+Testing that does not follow this policy may not be covered by the safe harbour section below.
+</Warning>
+
+You must not:
+
+- Access, view, copy, modify, delete, or export data that does not belong to you
+- Attempt to pivot into internal systems or third-party services
+- Perform DDoS, stress, load, or destructive testing
+- Use malware, ransomware, worms, persistence, or automated exploitation
+- Use social engineering, phishing, bribery, threats, or impersonation
+- Target Oxara staff, users, tenants, or third-party providers
+- Publicly disclose the vulnerability before we have had reasonable time to respond
+- Use a vulnerability to gain advantage, disrupt services, or harm Oxara or its users
+
+<Warning>
+If your testing creates risk for Oxara, our users, our tenants, or their data, you must stop immediately and report what happened.
+
+Failure to stop testing or report the issue promptly may result in action being taken.
+</Warning>
+
+## How to report a vulnerability
+
+Please report vulnerabilities through our support channel.
+
+<Card title="Contact Support" icon="message-circle" href="/CMS/support/contact-support">
+  Report a potential security vulnerability to the Oxara team.
+</Card>
+
+When reporting a vulnerability, include as much detail as possible:
+
+- A clear summary of the issue
+- The affected service, page, endpoint, domain, or feature
+- Step-by-step reproduction instructions
+- Screenshots, videos, logs, or proof-of-concept details where useful
+- The potential impact
+- Whether any tenant, user, staff, or member data may have been accessed
+- Any actions you have taken while testing
+- Your contact details, if you consent to us following up with you
+
+Please do not include unnecessary personal data, secrets, tokens, credentials, or data belonging to other users.
+
+<Note>
+Oxara may choose to reward verified vulnerability reports at its discretion. Rewards are not guaranteed.
+</Note>
+
+## Sensitive information
+
+If you accidentally access sensitive information, personal data, credentials, tokens, private messages, files, logs, or data from another tenancy, you must:
+
+- Stop testing immediately
+- Do not save, copy, share, modify, delete, or export the data
+- Report the issue to our support team as soon as possible
+- Tell us what was accessed and how
+- Delete any local copies if they were accidentally stored
+
+Where a report involves personal data, Oxara may need to assess whether the issue is a personal data breach and whether notification to affected parties, regulators, or other organisations is required.
+
+## What happens after you report
+
+After receiving your report, we will review the information and assess the issue.
+
+Where appropriate, we may:
+
+- Acknowledge your report
+- Ask for more information
+- Validate and reproduce the issue
+- Assess the severity and impact
+- Prioritise a fix
+- Apply mitigations or configuration changes
+- Notify affected users, tenants, providers, regulators, or authorities where required
+- Keep you updated where reasonable
+- Confirm when the issue has been resolved
+
+We aim to handle reports as quickly as possible. Resolution times may depend on the severity, complexity, affected systems, and operational priorities.
+
+## Public disclosure
+
+Please do not publicly disclose a vulnerability until Oxara has had reasonable time to investigate and resolve it.
+
+If you would like to publish details about a vulnerability, contact us first so we can coordinate disclosure safely. We may ask you to delay disclosure where needed to protect Oxara, our users, our tenants, or connected services.
+
+Public disclosure without coordination may put users at risk and may be treated as misuse of the platform.
+
+## Safe harbour
+
+We will not take action against good-faith security research that follows this policy, avoids harm, respects privacy, and is reported responsibly.
+
+This safe harbour does not apply to activity that:
+
+- Breaks the law
+- Accesses, copies, modifies, deletes, or discloses data without permission
+- Disrupts or damages Oxara services
+- Targets users, staff, tenants, or third-party systems
+- Uses social engineering, phishing, threats, extortion, or coercion
+- Goes beyond what is necessary to confirm the vulnerability
+- Fails to stop testing after discovering unauthorised access
+- Publicly discloses the issue before coordination
+- Attempts to demand payment, reward, access, or other benefit in exchange for disclosure
+
+<Warning>
+Contact us before testing where possible. If your activity falls outside this policy, safe harbour may not apply.
+</Warning>
+
+## Rewards and recognition
+
+Oxara does not currently operate a paid bug bounty programme.
+
+We may choose to reward or recognise helpful reports at our discretion. Submitting a report does not guarantee payment, reward, credit, or public recognition.
+
+Rewards, if offered, may depend on the quality of the report, severity of the issue, whether the issue was already known, whether the report followed this policy, and whether the researcher acted responsibly.
+
+## Legal and policy relationship
+
+This Responsible Disclosure Policy works alongside our Acceptable Use Policy, Terms of Service, Privacy Policy, and other security documentation.
+
+If activity breaches this policy, causes harm, or creates risk for Oxara, our users, our tenants, or their data, we may take action under our applicable policies and terms.
+
+## Changes to this policy
+
+We may update this Responsible Disclosure Policy from time to time.
+
+When changes are made, the latest version will be published in the Oxara documentation.
+
+<Note>
+Where possible, notice will be given. However, this cannot be promised. Notice may not always be given before updates are made to this policy.
+</Note>
+
+## Related pages
+
+<CardGroup cols={2}>
+  <Card title="Acceptable Use Policy" icon="shield-ban" href="/CMS/legal/acceptable-use-policy">
+    Understand what is and what is not allowed when using Oxara CMS.
+  </Card>
+
+  <Card title="Security Overview" icon="shield" href="/CMS/security/security-overview">
+    Learn how Oxara approaches platform security.
+  </Card>
+
+  <Card title="Privacy Policy" icon="lock" href="/CMS/legal/privacy-policy">
+    Understand how Oxara handles personal data.
+  </Card>
+
+  <Card title="Contact Support" icon="message-circle" href="/CMS/support/contact-support">
+    Contact Oxara if you need help or need to report a security concern.
+  </Card>
+</CardGroup>
