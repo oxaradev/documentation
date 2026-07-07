@@ -2,6 +2,7 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "luma",
   "name": "Oxara Documentation",
+  "description": "Learn how to set up, configure, and manage communities with Oxara.",
   "colors": {
     "primary": "#8974DD",
     "light": "#A897F0",
@@ -9,9 +10,37 @@
   },
   "logo": {
     "light": "/assets/logo/Oxara.svg",
-    "dark": "/assets/logo/Oxara.svg"
+    "dark": "/assets/logo/Oxara.svg",
+    "href": "https://oxara.cloud/"
   },
   "favicon": "/assets/logo/Oxara.svg",
+  "appearance": {
+    "default": "system",
+    "strict": false
+  },
+  "background": {
+    "decoration": "gradient"
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs",
+    "codeblocks": "system"
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Dashboard",
+        "href": "https://oxara.cloud/"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Open Dashboard",
+      "href": "https://oxara.cloud/"
+    }
+  },
   "navigation": {
     "tabs": [
       {
@@ -102,6 +131,16 @@
             ]
           },
           {
+            "group": "Support",
+            "icon": "circle-help",
+            "pages": [
+              "CMS/support/contact-support",
+              "CMS/support/faq",
+              "CMS/support/status-page",
+              "CMS/support/troubleshooting"
+            ]
+          },
+          {
             "group": "Legal",
             "icon": "scale",
             "pages": [
@@ -114,13 +153,6 @@
             ]
           },
           {
-            "group": "Support",
-            "icon": "circle-help",
-            "pages": [
-              "CMS/support"
-            ]
-          },
-          {
             "group": "Updates",
             "icon": "sparkles",
             "pages": [
@@ -130,5 +162,88 @@
         ]
       }
     ]
+  },
+  "footer": {
+    "socials": {
+      "discord": "https://discord.com/"
+    },
+    "links": [
+      {
+        "header": "Product",
+        "items": [
+          {
+            "label": "Quickstart",
+            "href": "/CMS/getting-started/quickstart"
+          },
+          {
+            "label": "Integrations",
+            "href": "/CMS/integrations/overview"
+          },
+          {
+            "label": "Changelog",
+            "href": "/CMS/changelog"
+          }
+        ]
+      },
+      {
+        "header": "Support",
+        "items": [
+          {
+            "label": "Contact Support",
+            "href": "/CMS/support/contact-support"
+          },
+          {
+            "label": "FAQ",
+            "href": "/CMS/support/faq"
+          },
+          {
+            "label": "Status Page",
+            "href": "/CMS/support/status-page"
+          },
+          {
+            "label": "Troubleshooting",
+            "href": "/CMS/support/troubleshooting"
+          }
+        ]
+      },
+      {
+        "header": "Company",
+        "items": [
+          {
+            "label": "Security",
+            "href": "/CMS/security/security-overview"
+          },
+          {
+            "label": "Privacy",
+            "href": "/CMS/legal/privacy-policy"
+          },
+          {
+            "label": "Terms",
+            "href": "/CMS/legal/terms-of-service"
+          }
+        ]
+      }
+    ]
+  },
+  "seo": {
+    "indexing": "navigable",
+    "metatags": {
+      "og:title": "Oxara Documentation",
+      "og:description": "Documentation for setting up, configuring, and managing communities with Oxara.",
+      "og:type": "website"
+    }
+  },
+  "search": {
+    "prompt": "Search Oxara documentation..."
+  },
+  "metadata": {
+    "timestamp": true
+  },
+  "errors": {
+    "404": {
+      "redirect": false,
+      "title": "Page not found",
+      "description": "The page you are looking for may have moved or no longer exists."
+    }
   }
 }
