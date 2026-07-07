@@ -1,106 +1,101 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "luma",
   "name": "Oxara Documentation",
   "colors": {
-    "primary": "#7C3AED"
+    "primary": "#8974DD",
+    "light": "#A897F0",
+    "dark": "#6F5CC2"
   },
   "logo": {
     "light": "/assets/logo/Oxara.svg",
     "dark": "/assets/logo/Oxara.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/assets/logo/Oxara.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "CMS",
+        "tab": "Oxara",
         "groups": [
           {
-            "group": "Overview",
+            "group": "Get Started",
+            "icon": "rocket",
             "pages": [
               "CMS/index",
-              "CMS/changelog"
-            ]
-          },
-          {
-            "group": "Get Started",
-            "pages": [
-              "CMS/getting-started/overview",
-              "CMS/getting-started/quick-start",
+              "CMS/getting-started/quickstart",
               "CMS/getting-started/creating-your-community",
-              "CMS/getting-started/dashboard-overview"
+              "CMS/getting-started/dashboard-overview",
+              "CMS/getting-started/inviting-staff"
             ]
           },
           {
             "group": "Core Concepts",
+            "icon": "blocks",
             "pages": [
               "CMS/core-concepts/communities",
               "CMS/core-concepts/members",
               "CMS/core-concepts/roles-and-permissions",
+              "CMS/core-concepts/notifications",
               "CMS/core-concepts/audit-logs"
             ]
           },
           {
             "group": "Features",
+            "icon": "layout-dashboard",
             "pages": [
               "CMS/features/members",
               "CMS/features/tickets",
               "CMS/features/forms",
-              "CMS/features/moderation",
               "CMS/features/events",
-              "CMS/features/reports"
+              "CMS/features/moderation",
+              "CMS/features/announcements",
+              "CMS/features/reports",
+              "CMS/features/analytics",
+              "CMS/features/settings"
             ]
           },
           {
             "group": "Configuration",
+            "icon": "sliders-horizontal",
             "pages": [
               "CMS/configuration/general-settings",
               "CMS/configuration/branding",
+              "CMS/configuration/email-settings",
               "CMS/configuration/security-settings",
-              "CMS/configuration/notification-settings"
+              "CMS/configuration/staff-permissions",
+              "CMS/configuration/webhooks"
             ]
           },
           {
             "group": "Integrations",
+            "icon": "plug",
             "pages": [
               "CMS/integrations/overview",
               "CMS/integrations/discord",
               "CMS/integrations/roblox",
+              "CMS/integrations/linear",
+              "CMS/integrations/trello",
+              "CMS/integrations/steam",
+              "CMS/integrations/object-storage",
               "CMS/integrations/webhooks"
             ]
           },
           {
-            "group": "Developers",
-            "pages": [
-              "CMS/api/overview",
-              "CMS/api/authentication",
-              "CMS/api/rate-limits",
-              "CMS/api/errors",
-              "CMS/api/websocket"
-            ]
-          },
-          {
             "group": "Account & Billing",
+            "icon": "credit-card",
             "pages": [
               "CMS/account-billing/account-settings",
-              "CMS/account-billing/plans",
               "CMS/account-billing/billing",
-              "CMS/account-billing/cancellation"
-            ]
-          },
-          {
-            "group": "Support",
-            "pages": [
-              "CMS/support/troubleshooting",
-              "CMS/support/faq",
-              "CMS/support/status-page",
-              "CMS/support/contact-support"
+              "CMS/account-billing/plans-and-licences",
+              "CMS/account-billing/cancelling"
             ]
           },
           {
             "group": "Security",
+            "icon": "shield",
             "pages": [
-              "CMS/security/overview",
+              "CMS/security/security-overview",
+              "CMS/security/authentication-security",
               "CMS/security/data-protection",
               "CMS/security/responsible-disclosure",
               "CMS/security/subprocessors"
@@ -108,11 +103,28 @@
           },
           {
             "group": "Legal",
+            "icon": "scale",
             "pages": [
               "CMS/legal/terms-of-service",
               "CMS/legal/privacy-policy",
               "CMS/legal/cookie-policy",
-              "CMS/legal/acceptable-use-policy"
+              "CMS/legal/acceptable-use-policy",
+              "CMS/legal/service-level-agreement",
+              "CMS/legal/data-processing-agreement"
+            ]
+          },
+          {
+            "group": "Support",
+            "icon": "circle-help",
+            "pages": [
+              "CMS/support"
+            ]
+          },
+          {
+            "group": "Updates",
+            "icon": "sparkles",
+            "pages": [
+              "CMS/changelog"
             ]
           }
         ]
