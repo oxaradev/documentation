@@ -1,0 +1,122 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Oxara Documentation",
+  "colors": {
+    "primary": "#7C3AED"
+  },
+  "logo": {
+    "light": "/assets/logo/Oxara.svg",
+    "dark": "/assets/logo/Oxara.svg"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "CMS",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "CMS/index",
+              "CMS/changelog"
+            ]
+          },
+          {
+            "group": "Get Started",
+            "pages": [
+              "CMS/getting-started/overview",
+              "CMS/getting-started/quick-start",
+              "CMS/getting-started/creating-your-community",
+              "CMS/getting-started/dashboard-overview"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "CMS/core-concepts/communities",
+              "CMS/core-concepts/members",
+              "CMS/core-concepts/roles-and-permissions",
+              "CMS/core-concepts/audit-logs"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "CMS/features/members",
+              "CMS/features/tickets",
+              "CMS/features/forms",
+              "CMS/features/moderation",
+              "CMS/features/events",
+              "CMS/features/reports"
+            ]
+          },
+          {
+            "group": "Configuration",
+            "pages": [
+              "CMS/configuration/general-settings",
+              "CMS/configuration/branding",
+              "CMS/configuration/security-settings",
+              "CMS/configuration/notification-settings"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "CMS/integrations/overview",
+              "CMS/integrations/discord",
+              "CMS/integrations/roblox",
+              "CMS/integrations/webhooks"
+            ]
+          },
+          {
+            "group": "Developers",
+            "pages": [
+              "CMS/api/overview",
+              "CMS/api/authentication",
+              "CMS/api/rate-limits",
+              "CMS/api/errors",
+              "CMS/api/websocket"
+            ]
+          },
+          {
+            "group": "Account & Billing",
+            "pages": [
+              "CMS/account-billing/account-settings",
+              "CMS/account-billing/plans",
+              "CMS/account-billing/billing",
+              "CMS/account-billing/cancellation"
+            ]
+          },
+          {
+            "group": "Support",
+            "pages": [
+              "CMS/support/troubleshooting",
+              "CMS/support/faq",
+              "CMS/support/status-page",
+              "CMS/support/contact-support"
+            ]
+          },
+          {
+            "group": "Security",
+            "pages": [
+              "CMS/security/overview",
+              "CMS/security/data-protection",
+              "CMS/security/responsible-disclosure",
+              "CMS/security/subprocessors"
+            ]
+          },
+          {
+            "group": "Legal",
+            "pages": [
+              "CMS/legal/terms-of-service",
+              "CMS/legal/privacy-policy",
+              "CMS/legal/cookie-policy",
+              "CMS/legal/acceptable-use-policy"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
