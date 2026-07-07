@@ -1,0 +1,80 @@
+docs/
+├── index.mdx
+├── getting-started/
+│   ├── overview.mdx
+│   ├── quickstart.mdx
+│   ├── creating-your-community.mdx
+│   ├── inviting-staff.mdx
+│   └── dashboard-overview.mdx
+│
+├── core-concepts/
+│   ├── communities.mdx
+│   ├── members.mdx
+│   ├── roles-and-permissions.mdx
+│   ├── audit-logs.mdx
+│   └── notifications.mdx
+│
+├── features/
+│   ├── members.mdx
+│   ├── moderation.mdx
+│   ├── tickets.mdx
+│   ├── forms.mdx
+│   ├── events.mdx
+│   ├── announcements.mdx
+│   ├── reports.mdx
+│   ├── analytics.mdx
+│   └── settings.mdx
+│
+├── configuration/
+│   ├── general-settings.mdx
+│   ├── branding.mdx
+│   ├── staff-permissions.mdx
+│   ├── security-settings.mdx
+│   ├── email-settings.mdx
+│   └── webhooks.mdx
+│
+├── integrations/
+│   ├── overview.mdx
+│   ├── discord.mdx
+│   ├── roblox.mdx
+│   ├── google.mdx
+│   ├── stripe.mdx
+│   └── custom-integrations.mdx
+│
+├── api/
+│   ├── overview.mdx
+│   ├── authentication.mdx
+│   ├── rate-limits.mdx
+│   ├── errors.mdx
+│   ├── pagination.mdx
+│   ├── webhooks.mdx
+│   └── websocket.mdx
+│
+├── account-billing/
+│   ├── account-settings.mdx
+│   ├── plans-and-licences.mdx
+│   ├── billing.mdx
+│   └── cancelling.mdx
+│
+├── support/
+│   ├── troubleshooting.mdx
+│   ├── status-page.mdx
+│   ├── contact-support.mdx
+│   └── faq.mdx
+│
+├── security/
+│   ├── security-overview.mdx
+│   ├── data-protection.mdx
+│   ├── authentication-security.mdx
+│   ├── responsible-disclosure.mdx
+│   └── subprocessors.mdx
+│
+├── legal/
+│   ├── terms-of-service.mdx
+│   ├── privacy-policy.mdx
+│   ├── cookie-policy.mdx
+│   ├── acceptable-use-policy.mdx
+│   ├── data-processing-agreement.mdx
+│   └── service-level-agreement.mdx
+│
+└── changelog.mdx
